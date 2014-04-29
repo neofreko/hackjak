@@ -7,6 +7,8 @@ There is no fancy technique here. We are only going to use neo4j as a graph data
 
 You can import the data using import.js, or use included neo4j data dump in data/. After that, we can play with shortest-route.php.
 
+![imported data](https://api.monosnap.com/image/download?id=bGXREGXHmsTDJ48n3wxXiHl5xdM15A)
+
 Setup
 ====
 $ npm install
