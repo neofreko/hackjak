@@ -9,13 +9,13 @@
     Everyman\Neo4j\PathFinder,
     Everyman\Neo4j\Path;
 
-    //$client = new Everyman\Neo4j\Client('localhost', 7474);
+    $client = new Everyman\Neo4j\Client('localhost', 7474);
     // use these lines to connect to grpahenedb
     /*$client = new Everyman\Neo4j\Client('host',port);
     $client->getTransport()
       ->setAuth('dbname', 'key');*/
 
-    print_r($client->getServerInfo());
+    //print_r($client->getServerInfo());
 
     // use neo4j web console to locate the id for these sample node, or locate it using the neo4jphp api
     $startNode = $client->getNode(62); // terminal blok m
