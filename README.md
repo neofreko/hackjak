@@ -11,3 +11,13 @@ Setup
 ====
 $ npm install
 $ composer install
+
+Sample output
+====
+````
+$ php shortest-route.php
+From Term. Blok M =( C137A )=> Jl. Patimura
+Jl. Patimura =( AC21 )=> Jl. Sudirman
+Jl. Sudirman =( P45 )=> Jl. Gatot Subroto
+Jl. Gatot Subroto =( P116 )=> Jl. Supomo
+````
